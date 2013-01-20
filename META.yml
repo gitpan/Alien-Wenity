@@ -1,0 +1,35 @@
+---
+abstract: 'install Wenity command-line tool'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  IO::Prompt::Tiny: 0
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 0
+generated_by: 'Module::Install version 1.06'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Alien::Wenity
+name: Alien-Wenity
+no_index:
+  directory:
+    - inc
+    - share
+    - t
+    - xt
+requires:
+  File::ShareDir: 0
+  perl: 5.8.0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Alien-Wenity
+  homepage: https://metacpan.org/release/Alien-Wenity
+  license: http://dev.perl.org/licenses/
+  repository: https://bitbucket.org/tobyink/p5-alien-wenity
+version: 0.000_01
